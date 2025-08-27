@@ -13,7 +13,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-screen bg-background text-foreground antialiased">
         <ThemeProvider>
           <div className="min-h-screen">
-            <header className="border-b bg-[rgb(var(--bg)/0.8)] backdrop-blur supports-[backdrop-filter]:bg-[rgb(var(--bg)/0.6)]">
+            <header className="sticky top-0 z-50 border-b bg-[rgb(var(--bg)/0.8)] backdrop-blur supports-[backdrop-filter]:bg-[rgb(var(--bg)/0.6)]">
               <nav className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
                 <a href="/" className="text-xl font-bold">35BIRD</a>
                 <div className="flex gap-6">
