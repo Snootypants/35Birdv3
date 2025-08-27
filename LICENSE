@@ -1,0 +1,7 @@
+This repository uses multiple licenses.
+
+• Code in /apps and /packages: MIT (see LICENSE-CODE).
+• Site content and media in /content and /public: CC BY-NC-ND 4.0 (see LICENSE-CONTENT).
+• All other files: MIT unless stated otherwise in a subfolder LICENSE.
+
+See LICENSE-CODE and LICENSE-CONTENT for details.

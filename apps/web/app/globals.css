@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: 255 255 255;
+    --fg: 17 24 39;
+    --muted-fg: 107 114 128;
+    --radius: 14px;
+    --space: 8px;
+  }
+  .dark {
+    --bg: 17 24 39;
+    --fg: 243 244 246;
+    --muted-fg: 156 163 175;
+  }
+  html, body { background: rgb(var(--bg)); color: rgb(var(--fg)); }
+}
+
+@layer utilities {
+  .bg-background { background: rgb(var(--bg)); }
+  .text-foreground { color: rgb(var(--fg)); }
+  .text-muted-foreground { color: rgb(var(--muted-fg)); }
+  .radius { border-radius: var(--radius); }
+  .gap-space { gap: var(--space); }
+  .bg-hero-poster { background-image: url('/hero-poster.jpg'); background-size: cover; background-position: center; }
+}
