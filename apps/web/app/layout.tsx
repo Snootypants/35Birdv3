@@ -10,10 +10,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body>
+      <body className="min-h-screen bg-background text-foreground antialiased">
         <ThemeProvider>
           <div className="min-h-screen">
-            <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+            <header className="border-b bg-[rgb(var(--bg)/0.8)] backdrop-blur supports-[backdrop-filter]:bg-[rgb(var(--bg)/0.6)]">
               <nav className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
                 <a href="/" className="text-xl font-bold">35BIRD</a>
                 <div className="flex gap-6">

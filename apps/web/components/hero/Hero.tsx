@@ -22,7 +22,7 @@ export default function Hero() {
           </a>
           <a
             href="/games/asteroids"
-            className="px-6 py-3 border rounded-lg hover:bg-background/10"
+            className="px-6 py-3 border rounded-lg hover:bg-[rgb(var(--bg)/0.1)]"
           >
             Play a demo
           </a>
