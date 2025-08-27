@@ -13,7 +13,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <ThemeProvider>
           <div className="min-h-screen">
-            <header className="border-b">
+            <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
               <nav className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
                 <a href="/" className="text-xl font-bold">35BIRD</a>
                 <div className="flex gap-6">
