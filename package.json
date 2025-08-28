@@ -1,7 +1,7 @@
 {
   "name": "35bird",
   "private": true,
-  "packageManager": "pnpm@8.15.8",
+  "packageManager": "pnpm@10.8.0",
   "engines": { "node": "20.x" },
   "workspaces": ["apps/*", "packages/*"],
   "scripts": {
